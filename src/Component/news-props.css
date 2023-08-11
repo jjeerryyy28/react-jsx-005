@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#userImg {
+  height: 40px;
+  border-radius: 20px;
+}
+
+.user{
+    display: flex;
+    margin-right: 20px;
+    flex-direction: row;
+    gap: 10px;
+}
+
+#icon{
+    margin-left: 500px;
+}
+#description {
+  font-size: 20px;
+}
+
+#images {
+  height: 220px;
+  width: 450px;
+}
+.image-card-container {
+  margin-top: 7em;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+}
+
+.image-card {
+  display: flex;
+  width: 100vw;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.image-card img {
+  max-width: 50%; /* Adjust the width as needed */
+  height: auto;
+}
+
+.image-card-text {
+  flex: 1;
+  padding: 0 100px;
+  text-align: left;
+}
+
+.image-card h2 {
+  font-size: 1.5rem;
+}
+
+.image-card p {
+  font-size: 1rem;
+}
+
+button{
+    border-radius: 15px;
+    padding: 5px;
+    box-shadow: none;
+    border: none;
+}
